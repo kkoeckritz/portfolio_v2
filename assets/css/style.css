@@ -1,0 +1,76 @@
+/* Materialize overrides */
+
+/* @media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 30px;
+        line-height: 30px;
+    }
+}
+
+nav {
+    height: 30px;
+    line-height: 30px;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 30px;
+    line-height: 30px;
+}
+
+nav .button-collapse i {
+    height: 30px;
+    line-height: 30px;
+}
+
+nav .brand-logo { 
+    font-size: 1.6rem; 
+} */
+
+.fixed-action-btn {
+	position: absolute;
+	top: -2px;
+	right: 6px;
+}
+
+.btn-floating {
+	position: relative;
+	right: 2px;
+}
+
+/*_______________________*/
+
+
+
+body {
+	background-color: white;
+}
+
+
+/* .btn_flatten {
+	height: 30px;
+	line-height: 30px;
+} */
+
+.btn_nudge {
+	/* right: 20px; */
+}
+
+#nav_prof {
+	cursor: default;
+}
+
+#prof_main {
+	position: relative;
+	vertical-align: middle;
+	color: #795548;
+}
+
+.prof_logo {
+	position: relative;
+	width: 37px;
+	vertical-align: middle;
+}
+
+/* #img_head {
+	width: 65px;
+} */
