@@ -15,8 +15,22 @@
 	right: 2px;
 }
 
+.page-footer {
+	padding: 0px;
+}
+
 /*_______________________*/
 
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
 
 *::selection {
 	color: white;
