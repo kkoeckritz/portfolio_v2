@@ -4,3 +4,10 @@ document.addEventListener('DOMContentLoaded', function() {
 		direction: 'bottom'
 	});
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+	var elems = document.querySelectorAll('.tabs');
+	var instance = M.Tabs.init(elems, {
+		
+	});
+});
