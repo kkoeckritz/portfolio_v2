@@ -16,7 +16,7 @@
 }
 
 .page-footer {
-	padding: 0px;
+	vertical-align: middle;
 }
 
 /*_______________________*/
@@ -41,6 +41,7 @@ body {
 	background-color: white;
 	background-image: url("../images/bg8.png");
 	background-repeat: repeat;
+	background-attachment: fixed;
 }
 
 
@@ -57,7 +58,7 @@ body {
 .big_letter {
 	font-size: 30pt;
 	/* font-weight: bold; */
-	text-shadow: -2px 2px 1px #ff6f00;
+	text-shadow: -2px 2px 1px #ff8f00;
 }
 
 #nav_prof {
