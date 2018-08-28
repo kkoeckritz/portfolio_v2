@@ -5,8 +5,13 @@ document.addEventListener('DOMContentLoaded', function() {
 	});
 });
 
+// document.addEventListener('DOMContentLoaded', function() {
+// 	var elems = document.querySelectorAll('.tabs');
+// 	var instance = M.Tabs.init(elems, {
+// 	});
+// });
+
 document.addEventListener('DOMContentLoaded', function() {
-	var elems = document.querySelectorAll('.tabs');
-	var instance = M.Tabs.init(elems, {
-	});
-});
+    var elems = document.querySelectorAll('.scrollspy');
+    var instances = M.ScrollSpy.init(elems, {});
+  });
